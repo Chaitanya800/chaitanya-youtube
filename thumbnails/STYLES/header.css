@@ -1,0 +1,126 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width:1px ;
+    border-bottom-style:solid ;
+    border-color: rgb(244, 244, 244);
+    z-index: 100;
+}
+.left-section{
+   
+    width: 300px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+ 
+}
+.haum-menu{
+    height: 20px;
+}
+.you-menu{
+    height: 20px;
+    margin-left: 30px;
+    background-color: white;
+}
+.middle-section{
+     
+    display: flex;
+    align-items: start;
+    flex: 1;
+    height: 45px;
+    max-width: 470px;
+    margin-left: 40px;
+    margin-right: 90px;
+    align-items: center;
+}
+   .search{
+    flex: 1;
+    height: 34px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(203, 200, 200);
+    max-width: 400px;
+    box-shadow: inset 1px 2px 3px 
+     rgba(0,0,0,0.05 );
+     width: 0px;
+     position: relative;
+     
+    }
+    .search-tooltip{
+        background-color: rgb(231, 231, 231);
+        border-radius: 2px;
+        opacity: 0;
+        bottom: 0;
+        position: absolute;
+    }
+    .search:hover .search-tooltip{
+        opacity: 1;
+    }
+    .search::placeholder{
+        flex: 1;
+        padding-left: 8px;
+        font-family: Roboto,Arial;
+        font-size: 17px;
+    }
+
+.search-button{
+    width: 66px;
+    height: 37px;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color:  rgb(203, 200, 200);
+    margin-left: -1px;
+    margin-right: 20px;
+    
+}
+.search-img{
+    width: 25px;
+    margin-top: 3px;
+   
+
+}
+.micro-button{
+    height: 37px;
+    border-width: 1px;
+    border-radius: 20px;
+     border: none;
+     background-color: rgb(235, 232, 232);
+    width: 40px;
+}
+.micro-img{
+    margin-top: 3px;
+    width: 25px;
+}
+.right-section{
+    display: flex;
+    align-items: center;
+    width: 182px;
+    justify-content: space-between;
+    margin-right: 24px;
+    margin-left: 29px;
+    flex-shrink: 0;
+
+}
+.upload-icon{
+    width: 25px;
+
+}
+.youapps-icon{
+    width: 25px;
+}
+
+.not-icon{
+    width: 25px;
+}
+.chan-icon{
+    width: 25px;
+}

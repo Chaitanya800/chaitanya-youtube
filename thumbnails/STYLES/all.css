@@ -1,0 +1,79 @@
+.display-grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+   column-gap: 18px;
+   row-gap: 30px;
+  }
+  @media(max-width:750px){
+   .display-grid{
+      grid-template-columns: 1fr 1fr;
+   }
+  }
+  @media(min-width:751px) and (max-width:999px){
+   .display-grid{
+      grid-template-columns: 1fr 1fr 1fr ;
+   }
+  }
+  @media(min-width:1000px){
+   .display-grid{
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
+  }
+   
+  
+  .div-demo{
+   width: 250px;
+}
+
+.first-video{
+   position: relative;
+
+}
+
+.video1-time{
+   background-color: black;
+   color: white;
+   position: absolute;
+   right: 10px;
+   bottom: 10px;
+   
+}
+
+.thumbnail{
+    width: 100%;
+}
+
+
+.thumbnail3{
+   width: 100%; 
+   border-radius: 20px;
+   margin-top: 10px;    
+}
+   .div-text{
+        width: 100%;
+         margin-left: 10px;
+         font-style: Roboto,Arial;
+
+          }
+          .text-video{
+             font-weight: bold;
+             margin-top:10px;
+             line-height: 18px;
+          }
+          .channel-name{
+             color: #606060;
+             height: 10px;
+             margin-top: 15px;
+             margin-bottom: 10px;
+             }
+          .views-num{
+             color: #606060;
+           
+          }
+         .grid-demo{
+            display: grid;
+            grid-template-columns: 40px 1fr;
+           
+         }
+      
